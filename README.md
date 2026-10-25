@@ -4,7 +4,7 @@ A small full-stack tool for characterizing a simulated ADC. It generates a captu
 runs a 4096-point FFT, computes SNR, SINAD, SFDR, THD and ENOB, checks the result
 against a spec limit, and keeps a history of runs in a database.
 
-![BenchLog screenshot](docs/screenshot.png)
+![BenchLog screenshot](docs/output.png)
 
 ## Features
 
