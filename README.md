@@ -1,10 +1,12 @@
 # BenchLog
 
+![CI](https://github.com/KaanOzgurr/benchlog/actions/workflows/ci.yml/badge.svg)
+
 A small full-stack tool for characterizing a simulated ADC. It generates a capture,
 runs a 4096-point FFT, computes SNR, SINAD, SFDR, THD and ENOB, checks the result
 against a spec limit, and keeps a history of runs in a database.
 
-![BenchLog screenshot](docs/output.png)
+![BenchLog screenshot](docs/screenshot.png)
 
 ## Features
 
