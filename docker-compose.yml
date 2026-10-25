@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - benchlog-data:/data
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8090:80"
+    depends_on:
+      - backend
+
+volumes:
+  benchlog-data:
