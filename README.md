@@ -89,3 +89,5 @@ backend/    FastAPI app, DSP code, tests
 frontend/   React + TypeScript app
 docs/       Screenshots
 ```
+
+Created by KaanOzgurr.
